@@ -1,0 +1,13 @@
+train: /storage/Projects/OlegAIProject/rooms_dataset/train/images
+val: /storage/Projects/OlegAIProject/rooms_dataset/valid/images
+test: /storage/Projects/OlegAIProject/rooms_dataset/test/images
+
+nc: 6
+names: ['DOOR', 'DOUBLE DOOR', 'FOLDING DOOR', 'ROOM', 'SLIDING DOOR', 'WINDOW']
+
+roboflow:
+  workspace: prop
+  project: room-separation-instance
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/prop/room-separation-instance/dataset/5
