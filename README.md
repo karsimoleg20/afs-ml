@@ -30,7 +30,7 @@ Backend for AFS app (floor cover calculator)
 
 Use Dockerfile for container that can be deployed to any cloud platform.
 
-`docker build -t afs-ml .`
+`docker build -t karsimoleg20/afs-ml .`
 
 ## Codespaces
 
